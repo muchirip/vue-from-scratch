@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> 
+        <title>Vue from Scratch</title>  
+    </head>
+    <body>
+        <div id="app">
+
+<!-- Start Vue-->
+        <accordion v-for="item in items" :key="item.id" :item="item"></accordion>  
+
+        </div>
+
+        <script src="./dist/app.js"></script>
+
+                
+    </body>
+    </html>
